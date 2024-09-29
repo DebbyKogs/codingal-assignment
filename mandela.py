@@ -10,3 +10,8 @@ for i in range(1000):
     t.forward(i%100)
     t.left(144)
 turtle.done()
+
+
+# git add .
+# git commit -m "message"
+# git push

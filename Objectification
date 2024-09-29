@@ -1,0 +1,19 @@
+class Human:
+
+
+  def __init__(self,name,maxAge):
+   self.name = name
+   self.maxAge = maxAge
+
+  def speak(self):
+    print(self.name," speaking")
+
+Deborah = Human("Deborah Kogolo",100)
+Akash = Human("Akash Kumar Roy",90)
+Bello = Human("Bello Halle",80)
+
+
+Akash.speak()
+
+Deborah.speak()
+Bello.speak()
