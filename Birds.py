@@ -5,10 +5,10 @@ class Bird :
     self.weight = weight
 
   def chirp (self):
-    print(self.name,"speaking")
+    print(self.species,"chirping")
 
   def fly (self):
-    print(self.name,"flying")
+    print(self.species,"flying")
 
     Pigeon = Bird("Rock dove",15,"20kg")
     Parrot = Bird ("Kakapo",12,"35kg")
